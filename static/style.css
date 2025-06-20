@@ -1,0 +1,24 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6fa;
+  padding: 20px;
+}
+
+h1 {
+  color: #005a9c;
+}
+
+#text-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.highlight {
+  background-color: yellow;
+}

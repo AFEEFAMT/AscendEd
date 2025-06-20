@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dyslexia-Friendly Reader</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <h1>Dyslexia Reader</h1>
+
+  <input type="file" id="pdf-upload" accept="application/pdf">
+  <button onclick="uploadPDF()">📤 Upload & Read</button>
+
+  <div id="text-container"></div>
+
+  <button onclick="readAloud()">🔊 Read Aloud</button>
+  <button onclick="highlightSelection()">🖍️ Highlight Selected</button>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
