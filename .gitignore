@@ -1,0 +1,13 @@
+# Python virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# PDF upload folder
+uploads/
+
+# System files
+.DS_Store
+Thumbs.db
